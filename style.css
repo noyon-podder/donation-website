@@ -21,8 +21,10 @@ Bass css here
   font-weight: 600;
   border-radius: 5px;
 }
-.heading-title {
+.title-box {
   text-align: center;
+}
+.heading-title {
   font-size: 32px;
   font-weight: 600;
   text-transform: capitalize;
@@ -53,6 +55,10 @@ Bass css here
 .section {
   padding-top: 100px;
   padding-bottom: 20px;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
 .input-money {
   display: block;
@@ -199,4 +205,86 @@ donate plan now section style here
   color: gray;
   font-size: 14px;
   font-weight: 400;
+}
+/* 
+==============================
+Blog section style here 
+==============================
+ */
+.post-section {
+  display: flex;
+  margin-top: 80px;
+}
+.current-post {
+  width: 65%;
+  border-right: 1px solid gray;
+}
+.feature-post {
+  width: 35%;
+}
+.current-post-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.current-post-image {
+  width: 40%;
+  padding-right: 30px;
+  height: auto;
+}
+.current-post-text {
+  width: 60%;
+  padding-right: 30px;
+}
+.current-post-image img {
+  width: 100%;
+}
+.time-date {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.time-date small {
+  color: #f76685;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.time-date p {
+  color: #f76685;
+  font-weight: 600;
+}
+.time-date p span {
+  color: gray;
+  margin-right: 9px;
+}
+.current-post-text h3 {
+  font-weight: 600;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  cursor: pointer;
+  color: #06091a;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.current-post-text h3:hover {
+  color: #54023a;
+}
+.current-post-text .text {
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.current-post-text .reading {
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #f31746;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.current-post-text .reading:hover {
+  color: #c4062f;
 }
