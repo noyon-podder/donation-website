@@ -25,6 +25,7 @@ Bass css here
   text-align: center;
   font-size: 32px;
   font-weight: 600;
+  text-transform: capitalize;
   position: relative;
 }
 .heading-title::after {
@@ -51,7 +52,7 @@ Bass css here
 }
 .section {
   padding-top: 100px;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 .input-money {
   display: block;
@@ -142,4 +143,60 @@ Donate Now section style here
 }
 .donate-money-other {
   margin-top: 40px;
+}
+/* 
+==============================
+donate plan now section style here 
+==============================
+ */
+.donate-plan {
+  text-align: center;
+}
+.plan-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 80px;
+}
+.plan-wrap {
+  width: 300px;
+  padding: 20px 16px;
+  border: 1px solid #f77b96;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.3s;
+  transform: translateY(0px);
+}
+.plan-wrap .icon {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.plan-wrap .icon img {
+  width: 50%;
+}
+.plan-wrap:hover .icon {
+  border: 2px solid #f76685;
+  background-color: #f76685;
+}
+.plan-wrap:hover {
+  transform: translateY(-20px);
+}
+.plan-wrap h2 {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 10px 0;
+}
+.plan-wrap p {
+  color: gray;
+  font-size: 14px;
+  font-weight: 400;
 }
