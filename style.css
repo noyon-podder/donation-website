@@ -15,7 +15,7 @@ li {
 .btn {
   display: inline-block;
   background: #f31746;
-  padding: 10px 40px;
+  padding: 10px 30px;
   text-decoration: none;
   color: #fff;
   cursor: pointer;
@@ -309,4 +309,56 @@ Blog section style here
 }
 .feature-post-text ul li:last-child {
   border-bottom: none;
+}
+/* 
+==============================
+Newsletter section style here 
+==============================
+ */
+.newsletter {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("images/donation13.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 70px 0;
+  margin-top: 60px;
+}
+.news-title h3 {
+  color: #f31746;
+  font-size: 20px;
+  font-weight: 600;
+}
+.news-title h1 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.suscribe {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suscribe .btn {
+  border-radius: 0px 5px 5px 0;
+  padding: 10px 20px;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+.suscribe .sub-input {
+  padding: 12px 15px;
+  border: none;
+  display: inline-block;
+  outline: none;
+  width: 40%;
+  height: 50px;
+  font-size: 16px;
+  color: #f31746;
+  border-radius: 5px 0 0 5px;
 }
