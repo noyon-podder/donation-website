@@ -91,22 +91,11 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 80vh;
-  /* position: relative; */
   z-index: -2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* header::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  z-index: -1;
-} */
 .hero-text {
   text-align: center;
   color: #fff;
@@ -342,21 +331,21 @@ Newsletter section style here
   font-weight: 600;
   text-transform: capitalize;
 }
-.suscribe {
+.subscribe {
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.suscribe .btn {
+.subscribe .btn {
   border-radius: 0px 5px 5px 0;
   padding: 10px 20px;
   height: 50px;
   outline: none;
   border: none;
 }
-.suscribe .sub-input {
+.subscribe .sub-input {
   padding: 12px 15px;
   border: none;
   display: inline-block;
