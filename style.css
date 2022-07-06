@@ -362,3 +362,17 @@ Newsletter section style here
   color: #f31746;
   border-radius: 5px 0 0 5px;
 }
+/* 
+==============================
+footer section style here 
+==============================
+ */
+.footer {
+  padding: 30px 0;
+  text-align: center;
+  background: linear-gradient(45deg, #f31746, #c4062f);
+}
+.footer p {
+  color: #000;
+  font-size: 18px;
+}
