@@ -9,6 +9,9 @@ Bass css here
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+li {
+  list-style: none;
+}
 .btn {
   display: inline-block;
   background: #f31746;
@@ -287,4 +290,23 @@ Blog section style here
 }
 .current-post-text .reading:hover {
   color: #c4062f;
+}
+/* feature blog section  */
+.feature-post-text {
+  padding: 10px 10px 10px 30px;
+}
+.feature-post-text ul li {
+  padding: 20px 0;
+  border-bottom: 1px solid gray;
+  font-size: 16px;
+  font-weight: 600;
+  color: #06091a;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.feature-post-text ul li:hover {
+  color: #f31746;
+}
+.feature-post-text ul li:last-child {
+  border-bottom: none;
 }
